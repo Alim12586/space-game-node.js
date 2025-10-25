@@ -1,0 +1,18 @@
+on:
+  pull_request:
+    branches:
+    - main
+    on:
+  schedule:
+  - cron: "0 2 * * 1-5"
+  on:
+  push:
+    branches:
+    - main
+    - release/*
+    on:
+  workflow_dispatch:
+  jobs:
+  my_job:
+    name: deploy to staging
+    runs-on: windows-latest

@@ -1,0 +1,12 @@
+<ships>
+  <ship id="1">
+    <name>AlimStar</name>
+    <speed>500</speed>
+    <weapon>Laser</weapon>
+  </ship>
+  <ship id="2">
+    <name>ChayCruiser</name>
+    <speed>300</speed>
+    <weapon>Plasma</weapon>
+  </ship>
+</ships>
